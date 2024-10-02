@@ -7,6 +7,7 @@
     <style>
         body {
             display: flex;
+            flex-direction: column; /* Added to stack items vertically */
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -16,9 +17,15 @@
             max-width: 100%;
             border: 1px solid #ccc;
         }
+        h1 {
+            margin-bottom: 20px; /* Space between title and video */
+            font-family: Arial, sans-serif; /* Added font styling */
+            color: #e50914; /* Netflix red color */
+        }
     </style>
 </head>
 <body>
+    <h1>Netflix</h1> <!-- Added Netflix heading -->
     <video controls>
         <source src="your-video-source.mp4" type="video/mp4">
         Your browser does not support the video tag.
