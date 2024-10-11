@@ -21,7 +21,7 @@
         }
 
         .navbar .search-bar {
-            width: 30%;
+            width: 40%;
         }
 
         .navbar input {
