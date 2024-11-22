@@ -1,0 +1,9 @@
+# Ignore all Terraform state files
+**/*.tfstate
+**/*.tfstate.*
+
+# Ignore .terraform directory (which contains local Terraform configuration)
+**/.terraform/*
+
+# Ignore Terraform lock file if needed
+.terraform.lock.hcl
